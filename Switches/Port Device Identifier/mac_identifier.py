@@ -17,10 +17,6 @@ with open('mac_address_table.txt', 'r') as infile:
 with open('mac_address_table.csv', 'r') as f:
     mac_table = f.readlines()
 
-# Read the MAC OUI file
-with open('mac_oui.txt', 'r') as f:
-    mac_oui = f.readlines()
-    
 # Read the Interface Status file
 with open('int_status.txt', 'r') as f:
     int_status = f.readlines() 
